@@ -11,7 +11,7 @@ const App = () => {
   const chains = [mainnet, polygon] as [Chain, ...Chain[]]
 
   // Get your own project access key on sequence.build
-  const projectAccessKey = import.meta.env.VITE_KIT_ACCESS_KEY
+  const projectAccessKey = import.meta.env.VITE_KIT_ACCESS_KEY || "AQAAAAAAAEGvyZiWA9FMslYeG_yayXaHnSI"
 
   const connectors = getDefaultConnectors({
     walletConnectProjectId: 'wallet-connect-id',
