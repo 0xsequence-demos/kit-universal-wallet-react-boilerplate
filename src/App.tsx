@@ -11,7 +11,7 @@ const App = () => {
   const chains = [mainnet, polygon] as [Chain, ...Chain[]]
 
   // Get your own project access key on sequence.build
-  const projectAccessKey = import.meta.env.VITE_KIT_ACCESS_KEY || "AQAAAAAAAEGvyZiWA9FMslYeG_yayXaHnSI"
+  const projectAccessKey = import.meta.env.VITE_KIT_ACCESS_KEY
 
   const connectors = getDefaultConnectors({
     walletConnectProjectId: 'wallet-connect-id',
@@ -20,6 +20,7 @@ const App = () => {
     projectAccessKey
   })
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const transports: { [key: number]: any } = {}
 
   chains.forEach(chain => {
