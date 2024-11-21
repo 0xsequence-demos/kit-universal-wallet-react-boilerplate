@@ -1,6 +1,6 @@
 # Sequence Kit Starter Boilerplate!
 
-Starter Sequence Kit Boilerplate that can be freely copied or forked for projects.
+A starter boilerplate to demonstrate Sequence Kit with Sequence Universal Wallet.
 
 ## Start Locally
 
