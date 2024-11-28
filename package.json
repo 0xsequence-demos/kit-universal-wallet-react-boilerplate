@@ -12,10 +12,10 @@
     "postinstall": "(cp -n .env.example .env) || echo already exists"
   },
   "dependencies": {
-    "0xsequence": "2.1.0",
     "@0xsequence/design-system": "^1.8.0",
     "@0xsequence/kit": "4.4.4",
     "@tanstack/react-query": "^5.61.4",
+    "boilerplate-design-system": "github:0xsequence-demos/boilerplate-design-system.git#14d0c4c",    "0xsequence": "2.1.0",
     "ethers": "6.13.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
