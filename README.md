@@ -1,3 +1,8 @@
+> [!WARNING]  
+> Deprecated!
+> Universal Wallet is not the preferred way to use Sequence. Try [Embedded Wallets](https://github.com/0xsequence-demos/kit-embedded-wallet-react-boilerplate) instead
+
+
 # Sequence Kit Starter Boilerplate!
 
 A starter boilerplate to demonstrate Sequence Kit with Sequence Universal Wallet.
